@@ -1,0 +1,109 @@
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+#isotopeContainer {
+  list-style: none;
+  margin: 0px;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.isotope-item {
+  width: 120px;
+  float: left;
+  padding: 10px;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border: solid 1px #ccc;
+  margin: 5px;
+  color: #333;
+}
+
+.isotope-item.green {
+  background-color: #C2F094;
+  border-color: #A0AF93;
+}
+
+.isotope-item.yellow {
+  background-color: #FFF07A;
+  border-color: #F5E958;
+}
+
+.isotope-item.orange {
+  background-color: #F8C83F;
+  border-color: #CC4F02;
+}
+
+.isotope-item.red {
+  background-color: #FF685D;
+  border-color: #F4373B;
+}
+
+.spacer {
+  padding: 20px;
+}
+
+.modal-dialog {
+  z-index: 2000;
+}
+
+hr {
+  margin: 30px 0;
+  border:0;
+  height:1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}

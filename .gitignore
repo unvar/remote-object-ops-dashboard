@@ -1,0 +1,4 @@
+config/
+*.sublime*
+.DS_Store
+mm-*
